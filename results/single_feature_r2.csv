@@ -1,0 +1,12 @@
+feature,type,cv_R2_alone,pearson_r_with_target
+Mental_Health_Score,numeric,0.8917,-0.945
+Conflicts_Over_Social_Media,numeric,0.8631,0.93
+Affects_Academic_Performance,categorical,0.7428,
+Avg_Daily_Usage_Hours,numeric,0.6897,0.833
+Sleep_Hours_Per_Night,numeric,0.5787,-0.764
+Country,categorical,0.4639,
+Most_Used_Platform,categorical,0.3254,
+Academic_Level,categorical,0.0259,
+Age,numeric,0.0169,-0.154
+Gender,categorical,-0.0034,
+Relationship_Status,categorical,-0.0097,

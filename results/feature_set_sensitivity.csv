@@ -1,0 +1,16 @@
+feature_set,dropped,model,cv_RMSE,cv_R2,cv_R2_std
+A: all features,-,Ridge,0.2758,0.9694,0.0047
+A: all features,-,RandomForest,0.1706,0.988,0.0037
+A: all features,-,XGBoost,0.1632,0.9891,0.0026
+B: without Country,Country,Ridge,0.2924,0.9656,0.0051
+B: without Country,Country,RandomForest,0.2184,0.9807,0.0039
+B: without Country,Country,XGBoost,0.1997,0.9839,0.0026
+C: without outcome-like features,"Mental_Health_Score, Conflicts_Over_Social_Media, Affects_Academic_Performance",Ridge,0.6032,0.8538,0.0139
+C: without outcome-like features,"Mental_Health_Score, Conflicts_Over_Social_Media, Affects_Academic_Performance",RandomForest,0.4029,0.9334,0.0188
+C: without outcome-like features,"Mental_Health_Score, Conflicts_Over_Social_Media, Affects_Academic_Performance",XGBoost,0.3737,0.9434,0.0113
+D: only usage hours + sleep + demographics,"Mental_Health_Score, Conflicts_Over_Social_Media, Affects_Academic_Performance, Most_Used_Platform, Relationship_Status",Ridge,0.6476,0.8315,0.0182
+D: only usage hours + sleep + demographics,"Mental_Health_Score, Conflicts_Over_Social_Media, Affects_Academic_Performance, Most_Used_Platform, Relationship_Status",RandomForest,0.4209,0.9269,0.0234
+D: only usage hours + sleep + demographics,"Mental_Health_Score, Conflicts_Over_Social_Media, Affects_Academic_Performance, Most_Used_Platform, Relationship_Status",XGBoost,0.4018,0.9337,0.0199
+E: only Mental_Health_Score + Conflicts,"Age, Gender, Academic_Level, Country, Avg_Daily_Usage_Hours, Most_Used_Platform, Affects_Academic_Performance, Sleep_Hours_Per_Night, Relationship_Status",Ridge,0.4197,0.9293,0.0079
+E: only Mental_Health_Score + Conflicts,"Age, Gender, Academic_Level, Country, Avg_Daily_Usage_Hours, Most_Used_Platform, Affects_Academic_Performance, Sleep_Hours_Per_Night, Relationship_Status",RandomForest,0.342,0.9531,0.0052
+E: only Mental_Health_Score + Conflicts,"Age, Gender, Academic_Level, Country, Avg_Daily_Usage_Hours, Most_Used_Platform, Affects_Academic_Performance, Sleep_Hours_Per_Night, Relationship_Status",XGBoost,0.3564,0.9489,0.0077

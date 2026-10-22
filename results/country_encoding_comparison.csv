@@ -1,0 +1,9 @@
+country_strategy,model,train_RMSE,cv_RMSE,cv_RMSE_std,overfit_gap
+drop,Ridge,0.2814,0.2924,0.0234,0.0111
+drop,RandomForest,0.0839,0.2184,0.0251,0.1345
+rare_onehot,Ridge,0.2492,0.2758,0.0236,0.0265
+rare_onehot,RandomForest,0.0668,0.1706,0.0254,0.1038
+target_cv,Ridge,0.2664,0.2746,0.0218,0.0081
+target_cv,RandomForest,0.1012,0.1889,0.0296,0.0877
+naive_target,Ridge,0.2584,0.2851,0.0225,0.0267
+naive_target,RandomForest,0.0699,0.2114,0.0505,0.1416

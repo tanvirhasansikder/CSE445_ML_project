@@ -1,0 +1,11 @@
+pipeline,model,split,MAE,MSE,RMSE,R2,status
+original preprocessing (re-created),LinearRegression,train (493),0.1883,0.0614,0.2478,0.9756,VERIFIED
+original preprocessing (re-created),LinearRegression,val (71),0.2442,0.1147,0.3386,0.9542,VERIFIED
+original preprocessing (re-created),LinearRegression,test (141),0.2102,0.0718,0.2679,0.9713,VERIFIED
+original preprocessing (re-created),RandomForest,train (493),0.0199,0.0049,0.0703,0.998,VERIFIED
+original preprocessing (re-created),RandomForest,val (71),0.0775,0.0719,0.2682,0.9713,VERIFIED
+original preprocessing (re-created),RandomForest,test (141),0.0543,0.0277,0.1663,0.9889,VERIFIED
+original preprocessing (re-created),XGBoost,train (493),0.0647,0.0123,0.111,0.9951,VERIFIED
+original preprocessing (re-created),XGBoost,val (71),0.1158,0.0542,0.2327,0.9784,VERIFIED
+original preprocessing (re-created),XGBoost,test (141),0.1095,0.0406,0.2014,0.9838,VERIFIED
+original notebook,StablePFN (run 1),test (141),0.7146,0.8935,0.9453,0.6429,"RECORDED (unverified, not re-run)"

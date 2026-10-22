@@ -1,0 +1,9 @@
+# Extra requirements for notebooks/03_model_reliability_analysis.ipynb
+# Verified versions in parentheses (Python 3.13.16); results/environment.json records the exact run.
+numpy>=1.26          # (2.5.3)
+pandas>=2.1          # (3.0.5)
+scikit-learn>=1.4    # (1.9.1) needs TargetEncoder, OneHotEncoder(min_frequency, sparse_output)
+xgboost>=2.0         # (3.4.1) optional: notebook falls back to HistGradientBoosting if missing
+matplotlib>=3.8      # (3.11.2)
+seaborn>=0.13        # (0.13.2)
+jupyter

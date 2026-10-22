@@ -1,0 +1,6 @@
+item,source,recorded_value,check,status
+StablePFN test MSE / MAE / R²,StablePFN notebook output,0.8935 / 0.7146 / 0.6429,Implied R² from recorded MSE on this test set = 0.6429,CONSISTENT with the 141-row test set (model itself NOT re-run)
+"Binary classification confusion matrix (TN 62, FP 0, FN 79, TP 0)",StablePFN notebook output,threshold labelled '>= 6.0' in text,Test rows with score >= 7: 79; with score >= 6: 88,"VERIFIED: positives = 79 matches threshold 7.0, not 6.0 -> label in notebook is wrong"
+Binary precision/recall/F1 = 0,StablePFN notebook output,0 / 0 / 0,Follows from TP = 0: the model never predicted >= 7,EXPLAINED (degenerate classifier)
+Hard masking (gate threshold 0.5) test MSE,StablePFN notebook output,22.9344,Mean-only Dummy test MSE = 2.5095,"PLAUSIBLE: all gates < 0.05, so every input is zeroed; worse than predicting the mean"
+"Run-2 retrain test metrics; iLTM, TabSRA, baseline, multiclass, NLP results",not readable / not provided,-,-,UNVERIFIED (cells beyond the readable part of the export)
