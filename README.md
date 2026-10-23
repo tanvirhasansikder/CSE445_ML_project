@@ -3,7 +3,7 @@
 Predicting a student's self-reported **social media addiction score** (`Addicted_Score`, 2–9) from survey answers about usage, sleep, mental health and background. The project combines:
 
 - exploratory data analysis
-- a custom transformer-based PyTorch model (**StablePFN**)
+- a custom transformer-based PyTorch model 
 - baseline regression models
 - a model reliability audit
 - secondary classification and NLP experiments
